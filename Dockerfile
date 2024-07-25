@@ -4,7 +4,7 @@
 # Copyleft(c) by Roman Kuznetsov
 #---------------------------------------------------------------------------
 
-FROM nginx:1.27.0
+FROM 040265515343.dkr.ecr.us-east-1.amazonaws.com/nginx:v1
 
 COPY ./index.html   /usr/share/nginx/html/index.html
 COPY ./awslogo.png  /usr/share/nginx/html/awslogo.png
